@@ -29,7 +29,7 @@ public class SolarDashBoard {
 			System.out.println(itr.next());
 		
 		System.out.println("--------------------------Channel List-----------------------------");
-		ArrayList<String> channelList = solarPM.gtChannelList("SI5048EH:1260016316");
+		ArrayList<String> channelList = solarPM.getChannelList("SI5048EH:1260016316");
 		itr = channelList.iterator();
 		while(itr.hasNext())
 			System.out.println(itr.next());

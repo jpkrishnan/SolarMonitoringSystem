@@ -173,7 +173,7 @@ public class SolarPlantMonitor implements SolarPlantProvider {
 	 * This method returns the channel name list for a given component
 	 */
 	@SuppressWarnings({ "rawtypes", "unchecked" })
-	public ArrayList<String> gtChannelList(String strComponentName) {
+	public ArrayList<String> getChannelList(String strComponentName) {
 		//Prepare an ArrayList to return to the caller
 		ArrayList<String> channelList = new ArrayList();
 		

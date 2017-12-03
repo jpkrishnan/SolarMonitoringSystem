@@ -11,6 +11,6 @@ import java.util.ArrayList;
  */
 public interface SolarPlantProvider {
 	public ArrayList<String> getComponentList();
-	public ArrayList<String> gtChannelList(String strComponentName);
+	public ArrayList<String> getChannelList(String strComponentName);
 	public String getChannelDataPoint(String strDeviceName, String strChannelName);
 }
