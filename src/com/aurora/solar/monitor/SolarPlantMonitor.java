@@ -114,7 +114,7 @@ public class SolarPlantMonitor implements SolarPlantProvider {
 	}
 	
 	/*
-	 * Helper function to return the component entries of a plant
+	 * Helper function to return the component(devices) entries of a plant
 	 */
 	private JSONArray getComponents() {
 		String strRequestURI = "/plant_overview";
